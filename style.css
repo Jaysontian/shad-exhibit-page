@@ -132,4 +132,9 @@ section{
     width:300px;
     object-fit:cover;
     margin: 20px 10px;
+    cursor:pointer;
+}
+
+.gallery img:hover {
+    opacity:0.7;
 }
