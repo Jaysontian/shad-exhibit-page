@@ -116,3 +116,20 @@ section{
 .img-device{
     width:350px;
 }
+
+.gallery {
+    display:flex;
+    flex-wrap: wrap;
+    width:700px;
+    margin:auto;
+    justify-content: space-between;
+
+    
+}
+
+.gallery img {
+    height:300px;
+    width:300px;
+    object-fit:cover;
+    margin: 20px 10px;
+}
