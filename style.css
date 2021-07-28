@@ -3,6 +3,11 @@
     --base-dark: rgb(54, 151, 196);
 }
 
+.center{
+    text-align:center;
+    width:600px;
+    margin:auto;
+}
 
 html, body {
     margin:0px;
@@ -10,6 +15,12 @@ html, body {
     scroll-behavior: smooth;
 }
 img {
+    border-radius:6px;
+}
+embed, iframe{
+    width:80%;
+    margin:auto;
+    height:500px;
     border-radius:6px;
 }
 #name {
